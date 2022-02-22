@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     func addBorder(with width: CGFloat, and color: UIColor, round radius: CGFloat = 0) {
         layer.borderWidth = width
         layer.borderColor = color.cgColor
